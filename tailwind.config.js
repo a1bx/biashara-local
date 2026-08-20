@@ -1,31 +1,36 @@
+function themeColor(name) {
+  return `rgb(var(--color-${name}) / <alpha-value>)`;
+}
+
 export default {content: [
   './index.html',
   './src/**/*.{js,ts,jsx,tsx}'
 ],
+  darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {
       colors: {
-        canvas: '#080B0C',
-        surface: '#0E1415',
-        panel: '#121A1B',
-        raised: '#172122',
-        line: '#1F2B2C',
-        hairline: '#182122',
-        ink: '#E6EFEE',
-        muted: '#8DA1A0',
-        faint: '#5D7170',
+        canvas: themeColor('canvas'),
+        surface: themeColor('surface'),
+        panel: themeColor('panel'),
+        raised: themeColor('raised'),
+        line: themeColor('line'),
+        hairline: themeColor('hairline'),
+        ink: themeColor('ink'),
+        muted: themeColor('muted'),
+        faint: themeColor('faint'),
         brand: {
-          DEFAULT: '#17B8A6',
-          bright: '#2DD4BF',
-          deep: '#0F8478',
-          soft: '#0C302D',
+          DEFAULT: themeColor('brand'),
+          bright: themeColor('brand-bright'),
+          deep: themeColor('brand-deep'),
+          soft: themeColor('brand-soft'),
         },
-        income: '#2DD4BF',
-        expense: '#F0555C',
-        warn: '#F5A524',
-        info: '#4C82F7',
-        violet: '#8B7CF6',
-        success: '#34D399',
+        income: themeColor('income'),
+        expense: themeColor('expense'),
+        warn: themeColor('warn'),
+        info: themeColor('info'),
+        violet: themeColor('violet'),
+        success: themeColor('success'),
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
