@@ -11,6 +11,7 @@ import {
   LaptopIcon,
   SettingsIcon } from
 'lucide-react';
+import { LogoMark } from '../common/Logo';
 
 interface NavItem {
   to: string;
@@ -67,12 +68,7 @@ export function Sidebar({ collapsed }: {collapsed: boolean;}) {
       aria-label="Main">
       
       <div className="flex h-[62px] items-center gap-3 border-b border-hairline px-4">
-        <div
-          className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-brand text-sm font-bold text-canvas"
-          aria-hidden="true">
-          
-          B
-        </div>
+        <LogoMark size={32} className="shrink-0" />
         {!collapsed ?
         <div className="min-w-0">
             <p className="truncate text-sm font-semibold text-ink">
