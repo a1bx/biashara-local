@@ -59,7 +59,7 @@ export function Dashboard() {
   return (
     <div className="mx-auto w-full max-w-[1560px] px-6 py-5">
       <div className="mb-5">
-        <h2 className="text-2xl font-semibold text-ink">Karibu! 👋</h2>
+        <h2 className="text-2xl font-semibold text-ink">Karibu!</h2>
         <p className="mt-1 text-sm text-muted">
           Your offline assistant for running and growing your business.
         </p>
