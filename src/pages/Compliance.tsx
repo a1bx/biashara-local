@@ -1,0 +1,187 @@
+import React, { useEffect, useRef, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { HelpCircleIcon, LibraryIcon } from 'lucide-react';
+import { AnswerCard } from '../components/compliance/AnswerCard';
+import { QuestionInput } from '../components/compliance/QuestionInput';
+import { Button } from '../components/common/Button';
+import { Card, CardHeader } from '../components/common/Card';
+import { EmptyState } from '../components/common/EmptyState';
+import { LoadingState } from '../components/common/LoadingState';
+import { Modal } from '../components/common/Modal';
+import { corpus } from '../data/corpus';
+import { useApp } from '../contexts/AppContext';
+import {
+  SAMPLE_QUESTIONS,
+  answerCompliance } from
+'../services/complianceRetrieval';
+
+const STAGES = [
+'Searching local knowledge base…',
+'Reading matching sources…',
+'Drafting a grounded answer…',
+'Complete'] as
+const;
+
+export function Compliance() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { history, addAnswer, clearHistory } = useApp();
+  const [stage, setStage] = useState(-1);
+  const [sourceId, setSourceId] = useState<string | null>(null);
+  const handled = useRef(false);
+
+  const ask = (question: string) => {
+    setStage(0);
+    const timers = [
+    window.setTimeout(() => setStage(1), 320),
+    window.setTimeout(() => setStage(2), 640),
+    window.setTimeout(() => {
+      addAnswer(answerCompliance(question));
+      setStage(-1);
+    }, 1000)];
+
+    return () => timers.forEach(window.clearTimeout);
+  };
+
+  useEffect(() => {
+    const state = location.state as {question?: string;} | null;
+    if (state?.question && !handled.current) {
+      handled.current = true;
+      ask(state.question);
+      navigate('.', { replace: true, state: null });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location.state]);
+
+  const source = corpus.find((doc) => doc.id === sourceId) ?? null;
+
+  return (
+    <div className="mx-auto grid w-full max-w-[1560px] grid-cols-1 gap-4 px-6 py-5 xl:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="space-y-4">
+        <div>
+          <h2 className="text-lg font-semibold text-ink">Compliance Q&A</h2>
+          <p className="mt-1 text-sm text-muted">
+            Get grounded answers about Kenyan business requirements.
+          </p>
+        </div>
+
+        <QuestionInput onSubmit={ask} busy={stage >= 0} />
+
+        {stage >= 0 ?
+        <Card>
+            <LoadingState
+            stages={STAGES}
+            currentStage={stage}
+            title="Answering from local documents"
+            note="Retrieval and generation run on this device." />
+          
+          </Card> :
+        null}
+
+        {history.length === 0 && stage < 0 ?
+        <Card>
+            <EmptyState
+            icon={<HelpCircleIcon className="h-5 w-5" />}
+            title="No compliance questions yet"
+            description="Ask a question about Kenyan tax and business compliance. Answers are retrieved from the curated corpus stored on this device."
+            actionLabel="Ask a Question"
+            onAction={() =>
+            document.getElementById('compliance-question')?.focus()
+            } />
+          
+          </Card> :
+        null}
+
+        <div className="space-y-5">
+          {history.map((answer) =>
+          <AnswerCard
+            key={answer.id}
+            answer={answer}
+            onFollowUp={ask}
+            onViewSource={setSourceId} />
+
+          )}
+        </div>
+      </div>
+
+      <div className="space-y-4">
+        <Card>
+          <CardHeader
+            title="Try asking"
+            subtitle="Questions the local corpus can answer well." />
+          
+          <ul className="space-y-1.5 p-3">
+            {SAMPLE_QUESTIONS.map((question) =>
+            <li key={question}>
+                <button
+                type="button"
+                onClick={() => ask(question)}
+                className="w-full rounded-lg border border-line bg-panel px-3 py-2 text-left text-2xs text-muted transition-colors duration-150 ease-out hover:border-brand/40 hover:text-brand-bright">
+                
+                  {question}
+                </button>
+              </li>
+            )}
+          </ul>
+        </Card>
+
+        <Card>
+          <CardHeader title="Local corpus" subtitle={`${corpus.length} indexed documents`} />
+          <div className="p-4">
+            <p className="text-2xs leading-relaxed text-muted">
+              Every answer cites the document it came from. Nothing is fetched
+              from the internet, so guidance reflects the snapshot date shown on
+              each source.
+            </p>
+            <div className="mt-3 flex gap-2">
+              <Button
+                size="sm"
+                variant="secondary"
+                icon={<LibraryIcon className="h-3.5 w-3.5" />}
+                onClick={() => navigate('/knowledge-base')}>
+                
+                Knowledge Base
+              </Button>
+              {history.length > 0 ?
+              <Button size="sm" variant="ghost" onClick={clearHistory}>
+                  Clear history
+                </Button> :
+              null}
+            </div>
+          </div>
+        </Card>
+      </div>
+
+      <Modal
+        open={source !== null}
+        title={source?.title ?? 'Source'}
+        subtitle={
+        source ? `${source.docType} · snapshot ${source.snapshot}` : undefined
+        }
+        onClose={() => setSourceId(null)}>
+        
+        <div className="space-y-4">
+          {source?.chunks.map((chunk) =>
+          <section key={chunk.id}>
+              <h3 className="text-xs font-semibold text-ink">{chunk.heading}</h3>
+              <p className="mt-1.5 text-xs leading-relaxed text-muted">
+                {chunk.text}
+              </p>
+              <ul className="mt-2 space-y-1">
+                {chunk.bullets.map((bullet) =>
+              <li
+                key={bullet}
+                className="flex gap-2 text-2xs leading-relaxed text-faint">
+                
+                    <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-brand" />
+                    {bullet}
+                  </li>
+              )}
+              </ul>
+            </section>
+          )}
+        </div>
+      </Modal>
+    </div>);
+
+}
