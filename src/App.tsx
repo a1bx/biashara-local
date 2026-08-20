@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/layout/AppShell';
 import { AppProvider } from './contexts/AppContext';
+import { ThemeProvider } from './contexts/ThemeContext';
 import { About } from './pages/About';
 import { BusinessData } from './pages/BusinessData';
 import { Compliance } from './pages/Compliance';
@@ -15,6 +16,7 @@ import { Statements } from './pages/Statements';
 
 export function App() {
   return (
+    <ThemeProvider>
     <AppProvider>
       <BrowserRouter>
         <Routes>
@@ -33,6 +35,7 @@ export function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </AppProvider>);
+    </AppProvider>
+    </ThemeProvider>);
 
 }
