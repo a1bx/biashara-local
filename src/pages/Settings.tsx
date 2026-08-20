@@ -12,6 +12,7 @@ import { Button } from '../components/common/Button';
 import { Card, CardHeader } from '../components/common/Card';
 import { Modal } from '../components/common/Modal';
 import { useApp } from '../contexts/AppContext';
+import { ThemePreference, useTheme } from '../contexts/ThemeContext';
 import { corpus } from '../data/corpus';
 
 function Row({
@@ -40,7 +41,7 @@ const selectClass =
 export function Settings() {
   const { clearAllData, loadDemoData, statements, documents, history, business } =
   useApp();
-  const [theme, setTheme] = useState('Dark (default)');
+  const { theme, setTheme } = useTheme();
   const [startup, setStartup] = useState('Open Dashboard');
   const [format, setFormat] = useState('PDF');
   const [confirmClear, setConfirmClear] = useState(false);
@@ -77,15 +78,16 @@ export function Settings() {
           title="General"
           icon={<SlidersHorizontalIcon className="h-4 w-4" />} />
         
-        <Row label="Theme" hint="Biashara Local is designed for low-glare dark screens.">
+        <Row label="Theme" hint="Switch between low-glare dark and light screens, or follow your system setting.">
           <select
             aria-label="Theme"
             className={selectClass}
             value={theme}
-            onChange={(e) => setTheme(e.target.value)}>
-            
-            <option>Dark (default)</option>
-            <option>Follow system</option>
+            onChange={(e) => setTheme(e.target.value as ThemePreference)}>
+
+            <option value="dark">Dark (default)</option>
+            <option value="light">Light</option>
+            <option value="system">Follow system</option>
           </select>
         </Row>
         <Row label="Startup behaviour">
