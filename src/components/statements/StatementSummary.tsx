@@ -1,4 +1,3 @@
-import React from 'react';
 import { CpuIcon } from 'lucide-react';
 import type { Statement } from '../../types';
 import { computeTotals } from '../../utils/analytics';
