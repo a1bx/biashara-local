@@ -1,4 +1,3 @@
-import React from 'react';
 import type { BusinessProfile } from '../../types';
 import { Field } from '../common/Field';
 
