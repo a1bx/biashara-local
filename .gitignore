@@ -39,3 +39,4 @@ assets/models/*.gguf
 bench/reports/*.json
 bench/reports/*.md
 !bench/reports/.gitkeep
+!bench/reports/CAVEATS.md
