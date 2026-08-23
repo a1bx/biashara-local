@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Signed manifest secret keys must never be committed
+*.ed25519.pem
+!*.ed25519.pub.pem
+
+# Model weights and generated bench reports
+assets/models/*.gguf
+bench/reports/*.json
+bench/reports/*.md
+!bench/reports/.gitkeep
