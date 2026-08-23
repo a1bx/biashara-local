@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface SparklineProps {
   values: number[];
   color: string;
