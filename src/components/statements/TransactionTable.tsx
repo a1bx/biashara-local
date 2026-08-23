@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { ChevronDownIcon, ChevronUpIcon } from 'lucide-react';
 import type { Transaction, TransactionType } from '../../types';
 import { formatAmount, formatDate } from '../../utils/format';
