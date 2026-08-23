@@ -10,10 +10,13 @@ import { LoadingState } from '../components/common/LoadingState';
 import { Modal } from '../components/common/Modal';
 import { corpus } from '../data/corpus';
 import { useApp } from '../contexts/AppContext';
+import { useBackendHealth } from '../hooks/useBackendHealth';
 import {
   SAMPLE_QUESTIONS,
-  answerCompliance } from
+  answerCompliance,
+  retrieve } from
 '../services/complianceRetrieval';
+import { generateStream } from '../services/inference';
 
 const STAGES = [
 'Searching local knowledge base…',
@@ -26,11 +29,14 @@ export function Compliance() {
   const navigate = useNavigate();
   const location = useLocation();
   const { history, addAnswer, clearHistory } = useApp();
+  const { health } = useBackendHealth();
   const [stage, setStage] = useState(-1);
+  const [streaming, setStreaming] = useState<{question: string;text: string;} | null>(null);
   const [sourceId, setSourceId] = useState<string | null>(null);
   const handled = useRef(false);
+  const abortRef = useRef<AbortController | null>(null);
 
-  const ask = (question: string) => {
+  const askWithFallback = (question: string) => {
     setStage(0);
     const timers = [
     window.setTimeout(() => setStage(1), 320),
@@ -43,6 +49,80 @@ export function Compliance() {
     return () => timers.forEach(window.clearTimeout);
   };
 
+  const askWithModel = async (question: string) => {
+    const matches = retrieve(question).slice(0, 3);
+    if (matches.length === 0) {
+      addAnswer(answerCompliance(question));
+      return;
+    }
+    const best = matches[0];
+
+    setStage(0);
+    await new Promise((r) => window.setTimeout(r, 200));
+    setStage(1);
+    await new Promise((r) => window.setTimeout(r, 200));
+    setStage(2);
+    setStreaming({ question, text: '' });
+
+    const context = matches.
+    map((m, i) => `[${i + 1}] ${m.doc.title} - ${m.chunk.heading}\n${m.chunk.text}`).
+    join('\n\n');
+    const prompt =
+    `You are a careful assistant for a small business owner in Kenya. ` +
+    `Answer the QUESTION using ONLY the CONTEXT below, in 2 to 4 short sentences. ` +
+    `If the context does not contain the answer, say so honestly.\n\n` +
+    `CONTEXT:\n${context}\n\n` +
+    `QUESTION: ${question}\n\n` +
+    `ANSWER:`;
+
+    abortRef.current = new AbortController();
+    let full = '';
+    try {
+      for await (const evt of generateStream(prompt, {
+        maxTokens: 220,
+        temperature: 0.2,
+        stop: ['\nQUESTION:', '\nCONTEXT:'],
+        signal: abortRef.current.signal
+      })) {
+        if (evt.type === 'token') {
+          full += evt.text;
+          setStreaming({ question, text: full });
+        }
+        if (evt.type === 'error') throw new Error(evt.message);
+      }
+
+      const summary = full.trim() || best.chunk.text;
+      addAnswer({
+        id: `ans-${Date.now()}`,
+        question,
+        summary,
+        bullets: best.chunk.bullets,
+        sourceTitle: best.doc.title,
+        sourceId: best.doc.id,
+        sourceSnapshot: best.doc.snapshot,
+        sourceHeading: best.chunk.heading,
+        confident: true,
+        followUps: best.chunk.followUps,
+        askedAt: new Date().toISOString()
+      });
+    } catch {
+      // Backend hiccup: fall back to keyword-only answer so the UI stays useful.
+      addAnswer(answerCompliance(question));
+    } finally {
+      abortRef.current = null;
+      setStreaming(null);
+      setStage(-1);
+    }
+  };
+
+  const ask = (question: string) => {
+    if (health?.ok) {
+      void askWithModel(question);
+      return;
+    }
+    askWithFallback(question);
+  };
+
   useEffect(() => {
     const state = location.state as {question?: string;} | null;
     if (state?.question && !handled.current) {
@@ -53,32 +133,58 @@ export function Compliance() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location.state]);
 
+  useEffect(() => {
+    return () => abortRef.current?.abort();
+  }, []);
+
   const source = corpus.find((doc) => doc.id === sourceId) ?? null;
+  const busy = stage >= 0;
 
   return (
     <div className="mx-auto grid w-full max-w-[1560px] grid-cols-1 gap-4 px-6 py-5 xl:grid-cols-[minmax(0,1fr)_320px]">
       <div className="space-y-4">
         <div>
-          <h2 className="text-lg font-semibold text-ink">Compliance Q&A</h2>
+          <div className="flex items-center gap-2">
+            <h2 className="text-lg font-semibold text-ink">Compliance Q&A</h2>
+            {health?.ok ?
+            <span className="rounded-full border border-brand/40 bg-brand/10 px-2 py-0.5 text-2xs font-medium text-brand-bright">
+                on-device model: {health.modelPath}
+              </span> :
+
+            <span className="rounded-full border border-line bg-panel px-2 py-0.5 text-2xs text-muted">
+                model offline · keyword retrieval only
+              </span>
+            }
+          </div>
           <p className="mt-1 text-sm text-muted">
             Get grounded answers about Kenyan business requirements.
           </p>
         </div>
 
-        <QuestionInput onSubmit={ask} busy={stage >= 0} />
+        <QuestionInput onSubmit={ask} busy={busy} />
 
-        {stage >= 0 ?
+        {busy ?
         <Card>
             <LoadingState
             stages={STAGES}
             currentStage={stage}
             title="Answering from local documents"
             note="Retrieval and generation run on this device." />
-          
+            {streaming && streaming.text ?
+          <div className="border-t border-line px-5 pb-5 pt-4">
+                <p className="text-2xs font-semibold uppercase tracking-wide text-faint">
+                  Streaming
+                </p>
+                <p className="mt-2 whitespace-pre-wrap text-xs leading-relaxed text-ink">
+                  {streaming.text}
+                  <span className="ml-0.5 inline-block h-3 w-1.5 animate-pulse bg-brand align-middle" />
+                </p>
+              </div> :
+          null}
           </Card> :
         null}
 
-        {history.length === 0 && stage < 0 ?
+        {history.length === 0 && !busy ?
         <Card>
             <EmptyState
             icon={<HelpCircleIcon className="h-5 w-5" />}
@@ -88,7 +194,7 @@ export function Compliance() {
             onAction={() =>
             document.getElementById('compliance-question')?.focus()
             } />
-          
+
           </Card> :
         null}
 
@@ -109,7 +215,7 @@ export function Compliance() {
           <CardHeader
             title="Try asking"
             subtitle="Questions the local corpus can answer well." />
-          
+
           <ul className="space-y-1.5 p-3">
             {SAMPLE_QUESTIONS.map((question) =>
             <li key={question}>
@@ -117,7 +223,7 @@ export function Compliance() {
                 type="button"
                 onClick={() => ask(question)}
                 className="w-full rounded-lg border border-line bg-panel px-3 py-2 text-left text-2xs text-muted transition-colors duration-150 ease-out hover:border-brand/40 hover:text-brand-bright">
-                
+
                   {question}
                 </button>
               </li>
@@ -139,7 +245,7 @@ export function Compliance() {
                 variant="secondary"
                 icon={<LibraryIcon className="h-3.5 w-3.5" />}
                 onClick={() => navigate('/knowledge-base')}>
-                
+
                 Knowledge Base
               </Button>
               {history.length > 0 ?
@@ -159,7 +265,7 @@ export function Compliance() {
         source ? `${source.docType} · snapshot ${source.snapshot}` : undefined
         }
         onClose={() => setSourceId(null)}>
-        
+
         <div className="space-y-4">
           {source?.chunks.map((chunk) =>
           <section key={chunk.id}>
@@ -172,7 +278,7 @@ export function Compliance() {
               <li
                 key={bullet}
                 className="flex gap-2 text-2xs leading-relaxed text-faint">
-                
+
                     <span className="mt-1.5 h-1 w-1 shrink-0 rounded-full bg-brand" />
                     {bullet}
                   </li>
