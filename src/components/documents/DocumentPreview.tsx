@@ -1,4 +1,3 @@
-import React from 'react';
 import type { BusinessDocument } from '../../types';
 import { isLetter } from '../../services/documentGenerator';
 import { formatAmount, formatDate } from '../../utils/format';
