@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { AlertTriangleIcon, UploadCloudIcon } from 'lucide-react';
 import { useApp } from '../../contexts/AppContext';
 import {
