@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "description": "Fixed prompt set for Sperf/Seff bake-off runs. Ten prompts across the three user-facing capabilities.",
+  "prompts": [
+    {
+      "id": "statement_narrate_short",
+      "category": "statement",
+      "max_tokens": 128,
+      "prompt": "Below is a monthly M-Pesa summary for a small Nairobi kiosk. Write a two-sentence narration for the owner.\n\nIncome: KES 42,300 across 118 transactions.\nExpenses: KES 31,800 across 47 transactions.\nTop counterparty: Kimani Wholesalers (KES 12,400).\nNet: +KES 10,500 vs last month +KES 6,200.\n\nNarration:"
+    },
+    {
+      "id": "statement_narrate_long",
+      "category": "statement",
+      "max_tokens": 384,
+      "prompt": "Given this M-Pesa month, explain the movement to the owner. Cover top three counterparties, expense categories, and cashflow trend vs last month. Keep it to under 180 words.\n\nMonth: July 2026. Income KES 128,500 (312 tx). Expenses KES 96,240 (188 tx). Net +KES 32,260 vs June +KES 18,900. Top inflow: Naivas Supplies KES 34,000. Top outflow: Kimani Wholesalers KES 22,800. Expense mix: stock 62%, transport 14%, rent 12%, airtime 5%, other 7%.\n\nExplanation:"
+    },
+    {
+      "id": "invoice_short",
+      "category": "document",
+      "max_tokens": 256,
+      "prompt": "Draft a short invoice in plain text for the following.\nSeller: Mama Njeri General Store, Kiambu.\nBuyer: Green Valley Restaurant.\nItems: 20 kg sugar @ KES 130, 15 kg wheat flour @ KES 165, 12 packs cooking oil 1L @ KES 320.\nInclude subtotal and total in KES. No VAT applied.\n\nInvoice:"
+    },
+    {
+      "id": "quotation",
+      "category": "document",
+      "max_tokens": 384,
+      "prompt": "Write a professional quotation from a Nairobi print shop to Riverside Academy for 500 school uniforms at KES 850 each, delivery in 21 days, 30 percent deposit required. Include quote number Q-2026-041 and validity of 14 days.\n\nQuotation:"
+    },
+    {
+      "id": "supplier_letter",
+      "category": "document",
+      "max_tokens": 256,
+      "prompt": "Draft a polite letter to a supplier requesting a 30-day extension on invoice INV-334 (KES 84,200) due to a delayed customer payment. Business: Kilimani Hardware.\n\nLetter:"
+    },
+    {
+      "id": "compliance_etims_basic",
+      "category": "compliance",
+      "max_tokens": 256,
+      "prompt": "A shop owner asks: do I need to issue eTIMS invoices if my annual turnover is below 5 million KES? Answer in three short sentences, plainly, and note the source category.\n\nAnswer:"
+    },
+    {
+      "id": "compliance_tot",
+      "category": "compliance",
+      "max_tokens": 256,
+      "prompt": "Explain Turnover Tax (TOT) in Kenya to a small shop owner in plain English: rate, who qualifies, how often filed. Under 120 words.\n\nAnswer:"
+    },
+    {
+      "id": "compliance_vat_threshold",
+      "category": "compliance",
+      "max_tokens": 200,
+      "prompt": "At what annual turnover must a Kenyan business register for VAT, and what happens if you cross the threshold mid-year? Two short paragraphs.\n\nAnswer:"
+    },
+    {
+      "id": "compliance_edge_case",
+      "category": "compliance",
+      "max_tokens": 200,
+      "prompt": "A mobile trader with no fixed premises does about KES 900,000 turnover a year. Is Turnover Tax the right regime, or should they register for something else? Answer briefly and say what you are not sure about.\n\nAnswer:"
+    },
+    {
+      "id": "followup_narration",
+      "category": "statement",
+      "max_tokens": 200,
+      "prompt": "Follow-up question after seeing a July summary: 'why did my transport expenses jump so much?' The parser reports transport went from KES 4,100 in June to KES 13,400 in July, driven by two entries to 'City Fuel Ltd' totaling KES 9,600. Answer for the owner in plain English.\n\nAnswer:"
+    }
+  ]
+}
