@@ -6,6 +6,7 @@ import {
   PanelLeftOpenIcon,
   SettingsIcon } from
 'lucide-react';
+import { ModelIndicator } from './ModelIndicator';
 
 interface TopBarProps {
   title: string;
@@ -38,6 +39,7 @@ export function TopBar({ title, collapsed, onToggleSidebar }: TopBarProps) {
       </div>
 
       <div className="flex items-center gap-2">
+        <ModelIndicator />
         <div className="relative">
           <button
             type="button"
@@ -48,11 +50,11 @@ export function TopBar({ title, collapsed, onToggleSidebar }: TopBarProps) {
             onClick={() => setShowOfflineNote((v) => !v)}
             aria-describedby="offline-note"
             className="flex items-center gap-2 rounded-lg px-2 py-1.5 text-left transition-colors duration-150 ease-out hover:bg-raised">
-            
+
             <span
               className="h-2 w-2 shrink-0 rounded-full bg-success"
               aria-hidden="true" />
-            
+
             <span className="leading-tight">
               <span className="block text-xs font-medium text-ink">
                 Offline Mode
@@ -65,7 +67,7 @@ export function TopBar({ title, collapsed, onToggleSidebar }: TopBarProps) {
             id="offline-note"
             role="tooltip"
             className="absolute right-0 top-full z-40 mt-2 w-64 rounded-lg border border-line bg-panel p-3 text-2xs leading-relaxed text-muted shadow-xl">
-            
+
               Biashara Local is running locally. No cloud connection is required,
               and your business data never leaves this device.
             </div> :
