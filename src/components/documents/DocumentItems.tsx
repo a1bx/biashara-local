@@ -1,4 +1,3 @@
-import React from 'react';
 import { PlusIcon, Trash2Icon } from 'lucide-react';
 import type { LineItem } from '../../types';
 import {
