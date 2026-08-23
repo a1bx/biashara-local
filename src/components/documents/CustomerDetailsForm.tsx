@@ -1,4 +1,3 @@
-import React from 'react';
 import type { PartyDetails } from '../../types';
 import { Field } from '../common/Field';
 
