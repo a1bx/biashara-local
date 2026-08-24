@@ -13,7 +13,7 @@ import { Card, CardHeader } from '../components/common/Card';
 import { Modal } from '../components/common/Modal';
 import { useApp } from '../contexts/AppContext';
 import { ThemePreference, useTheme } from '../contexts/ThemeContext';
-import { corpus } from '../data/corpus';
+import { corpusMeta } from '../data/corpus';
 
 function Row({
   label,
@@ -131,10 +131,7 @@ export function Settings() {
         </Row>
         <Row
           label="Retrieval index"
-          hint={`${corpus.length} documents · ${corpus.reduce(
-            (s, d) => s + d.chunks.length,
-            0
-          )} embedded sections`}>
+          hint={`${corpusMeta.docCount} documents · ${corpusMeta.chunkCount} embedded sections · ${corpusMeta.embedModel}`}>
           
           <Badge tone="brand">Indexed locally</Badge>
         </Row>

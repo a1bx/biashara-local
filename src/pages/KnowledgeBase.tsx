@@ -4,7 +4,7 @@ import { Badge, toneForStatus } from '../components/common/Badge';
 import { Card, CardHeader } from '../components/common/Card';
 import { Modal } from '../components/common/Modal';
 import { SearchInput } from '../components/common/SearchInput';
-import { corpus, corpusCategories } from '../data/corpus';
+import { corpus, corpusCategories, corpusMeta } from '../data/corpus';
 
 export function KnowledgeBase() {
   const [query, setQuery] = useState('');
@@ -37,8 +37,8 @@ export function KnowledgeBase() {
         </div>
         <p className="flex items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-2xs text-muted">
           <DatabaseIcon className="h-3.5 w-3.5 text-brand" aria-hidden="true" />
-          {corpus.length} documents ·{' '}
-          {corpus.reduce((sum, doc) => sum + doc.chunks.length, 0)} indexed
+          {corpusMeta.docCount} documents ·{' '}
+          {corpusMeta.chunkCount} indexed
           sections · no internet lookups
         </p>
       </div>

@@ -8,14 +8,15 @@ import { Card, CardHeader } from '../components/common/Card';
 import { EmptyState } from '../components/common/EmptyState';
 import { LoadingState } from '../components/common/LoadingState';
 import { Modal } from '../components/common/Modal';
-import { corpus } from '../data/corpus';
+import { corpus, corpusMeta } from '../data/corpus';
 import { useApp } from '../contexts/AppContext';
 import { useBackendHealth } from '../hooks/useBackendHealth';
+import { useRetrievalHealth } from '../hooks/useRetrievalHealth';
 import {
   SAMPLE_QUESTIONS,
-  answerCompliance,
-  retrieve } from
-'../services/complianceRetrieval';
+  answerComplianceAsync,
+  retrieve,
+} from '../services/complianceRetrieval';
 import { generateStream } from '../services/inference';
 
 const STAGES = [
@@ -30,29 +31,27 @@ export function Compliance() {
   const location = useLocation();
   const { history, addAnswer, clearHistory } = useApp();
   const { health } = useBackendHealth();
+  const retrievalHealth = useRetrievalHealth();
   const [stage, setStage] = useState(-1);
   const [streaming, setStreaming] = useState<{question: string;text: string;} | null>(null);
   const [sourceId, setSourceId] = useState<string | null>(null);
   const handled = useRef(false);
   const abortRef = useRef<AbortController | null>(null);
 
-  const askWithFallback = (question: string) => {
+  const askWithFallback = async (question: string) => {
     setStage(0);
-    const timers = [
-    window.setTimeout(() => setStage(1), 320),
-    window.setTimeout(() => setStage(2), 640),
-    window.setTimeout(() => {
-      addAnswer(answerCompliance(question));
-      setStage(-1);
-    }, 1000)];
-
-    return () => timers.forEach(window.clearTimeout);
+    await new Promise((r) => window.setTimeout(r, 320));
+    setStage(1);
+    await new Promise((r) => window.setTimeout(r, 320));
+    setStage(2);
+    addAnswer(await answerComplianceAsync(question));
+    setStage(-1);
   };
 
   const askWithModel = async (question: string) => {
-    const matches = retrieve(question).slice(0, 3);
+    const matches = (await retrieve(question)).slice(0, 3);
     if (matches.length === 0) {
-      addAnswer(answerCompliance(question));
+      addAnswer(await answerComplianceAsync(question));
       return;
     }
     const best = matches[0];
@@ -106,8 +105,7 @@ export function Compliance() {
         askedAt: new Date().toISOString()
       });
     } catch {
-      // Backend hiccup: fall back to keyword-only answer so the UI stays useful.
-      addAnswer(answerCompliance(question));
+      addAnswer(await answerComplianceAsync(question));
     } finally {
       abortRef.current = null;
       setStreaming(null);
@@ -120,7 +118,7 @@ export function Compliance() {
       void askWithModel(question);
       return;
     }
-    askWithFallback(question);
+    void askWithFallback(question);
   };
 
   useEffect(() => {
@@ -144,17 +142,26 @@ export function Compliance() {
     <div className="mx-auto grid w-full max-w-[1560px] grid-cols-1 gap-4 px-6 py-5 xl:grid-cols-[minmax(0,1fr)_320px]">
       <div className="space-y-4">
         <div>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <h2 className="text-lg font-semibold text-ink">Compliance Q&A</h2>
-            {health?.ok ?
-            <span className="rounded-full border border-brand/40 bg-brand/10 px-2 py-0.5 text-2xs font-medium text-brand-bright">
-                on-device model: {health.modelPath}
-              </span> :
-
-            <span className="rounded-full border border-line bg-panel px-2 py-0.5 text-2xs text-muted">
-                model offline · keyword retrieval only
+            {retrievalHealth?.ok ? (
+              <span className="rounded-full border border-brand/40 bg-brand/10 px-2 py-0.5 text-2xs font-medium text-brand-bright">
+                index: {retrievalHealth.chunkCount} sections
               </span>
-            }
+            ) : (
+              <span className="rounded-full border border-line bg-panel px-2 py-0.5 text-2xs text-muted">
+                index offline · local fallback
+              </span>
+            )}
+            {health?.ok ? (
+              <span className="rounded-full border border-brand/40 bg-brand/10 px-2 py-0.5 text-2xs font-medium text-brand-bright">
+                on-device model: {health.modelPath}
+              </span>
+            ) : (
+              <span className="rounded-full border border-line bg-panel px-2 py-0.5 text-2xs text-muted">
+                model offline · retrieval only
+              </span>
+            )}
           </div>
           <p className="mt-1 text-sm text-muted">
             Get grounded answers about Kenyan business requirements.
@@ -232,7 +239,10 @@ export function Compliance() {
         </Card>
 
         <Card>
-          <CardHeader title="Local corpus" subtitle={`${corpus.length} indexed documents`} />
+          <CardHeader
+            title="Local corpus"
+            subtitle={`${corpusMeta.docCount} documents · ${corpusMeta.chunkCount} indexed sections`}
+          />
           <div className="p-4">
             <p className="text-2xs leading-relaxed text-muted">
               Every answer cites the document it came from. Nothing is fetched
