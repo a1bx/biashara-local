@@ -1,0 +1,2407 @@
+{
+  "version": 1,
+  "count": 200,
+  "description": "Graded compliance Q&A eval set for Sacc measurement",
+  "items": [
+    {
+      "id": "eval-001",
+      "question": "Quick question: What is county business permits?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-002",
+      "question": "How does county business permits work in Kenya?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-003",
+      "question": "Explain county business permits for a small business.",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-004",
+      "question": "Quick question: When must I obtain a business permit?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-005",
+      "question": "For my M-Pesa business, What are the requirements for county business permits?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-006",
+      "question": "As a shop owner, Do I need to obtain a business permit?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-007",
+      "question": "As a shop owner, What is the deadline for county business permits?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-008",
+      "question": "As a shop owner, Who must obtain a business permit?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-009",
+      "question": "Quick question: Can a small business obtain a business permit?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-010",
+      "question": "How do I obtain a business permit?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-011",
+      "question": "Quick question: What documents do I need for county business permits?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-012",
+      "question": "Quick question: Is county business permits mandatory for SMEs?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-013",
+      "question": "My turnover is growing \u2014 What penalties apply to county business permits?",
+      "reference_answer": "Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category.",
+      "expected_chunk_ids": [
+        "brs-registration-county-business-permits"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "County business permits"
+    },
+    {
+      "id": "eval-014",
+      "question": "What is a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-015",
+      "question": "My turnover is growing \u2014 How does a KRA PIN work in Kenya?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-016",
+      "question": "I'm a sole proprietor \u2014 Explain a KRA PIN for a small business.",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-017",
+      "question": "When must I apply for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-018",
+      "question": "What are the requirements for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-019",
+      "question": "Do I need to apply for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-020",
+      "question": "As a shop owner, What is the deadline for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-021",
+      "question": "As a shop owner, Who must apply for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-022",
+      "question": "My turnover is growing \u2014 Can a small business apply for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-023",
+      "question": "My turnover is growing \u2014 How do I apply for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-024",
+      "question": "What documents do I need for a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-025",
+      "question": "My turnover is growing \u2014 Is a KRA PIN mandatory for SMEs?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-026",
+      "question": "As a shop owner, What penalties apply to a KRA PIN?",
+      "reference_answer": "After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details.",
+      "expected_chunk_ids": [
+        "brs-registration-obtaining-a-kra-pin"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Obtaining a KRA PIN"
+    },
+    {
+      "id": "eval-027",
+      "question": "Quick question: What is opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-028",
+      "question": "Quick question: How does opening a business bank account work in Kenya?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-029",
+      "question": "Quick question: Explain opening a business bank account for a small business.",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-030",
+      "question": "My turnover is growing \u2014 When must I opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-031",
+      "question": "I'm a sole proprietor \u2014 What are the requirements for opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-032",
+      "question": "As a shop owner, Do I need to opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-033",
+      "question": "I'm a sole proprietor \u2014 What is the deadline for opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-034",
+      "question": "My turnover is growing \u2014 Who must opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-035",
+      "question": "For my M-Pesa business, Can a small business opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-036",
+      "question": "For compliance purposes, How do I opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-037",
+      "question": "For compliance purposes, What documents do I need for opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-038",
+      "question": "Is opening a business bank account mandatory for SMEs?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-039",
+      "question": "For compliance purposes, What penalties apply to opening a business bank account?",
+      "reference_answer": "Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address.",
+      "expected_chunk_ids": [
+        "brs-registration-opening-a-business-bank-account"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Opening a business bank account"
+    },
+    {
+      "id": "eval-040",
+      "question": "For compliance purposes, What is registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-041",
+      "question": "As a shop owner, How does registering a business in kenya work in Kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-042",
+      "question": "Quick question: Explain registering a business in kenya for a small business.",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-043",
+      "question": "I'm a sole proprietor \u2014 When must I registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-044",
+      "question": "For my M-Pesa business, What are the requirements for registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-045",
+      "question": "For my M-Pesa business, Do I need to registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-046",
+      "question": "As a shop owner, What happens if I don't registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-047",
+      "question": "As a shop owner, What is the deadline for registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-048",
+      "question": "For compliance purposes, Who must registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-049",
+      "question": "For my M-Pesa business, Can a small business registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-050",
+      "question": "How do I registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-051",
+      "question": "What documents do I need for registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-052",
+      "question": "I'm a sole proprietor \u2014 Is registering a business in kenya mandatory for SMEs?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-053",
+      "question": "What penalties apply to registering a business in kenya?",
+      "reference_answer": "Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-a-business-in-kenya"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering a business in Kenya"
+    },
+    {
+      "id": "eval-054",
+      "question": "For my M-Pesa business, What is registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-055",
+      "question": "For compliance purposes, How does registering tax obligations work in Kenya?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-056",
+      "question": "For my M-Pesa business, Explain registering tax obligations for a small business.",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-057",
+      "question": "My turnover is growing \u2014 When must I registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-058",
+      "question": "For my M-Pesa business, What are the requirements for registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-059",
+      "question": "For compliance purposes, Do I need to registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-060",
+      "question": "What happens if I don't registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-061",
+      "question": "Quick question: What is the deadline for registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-062",
+      "question": "I'm a sole proprietor \u2014 Who must registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-063",
+      "question": "My turnover is growing \u2014 Can a small business registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-064",
+      "question": "What rate applies to registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-065",
+      "question": "I'm a sole proprietor \u2014 How do I registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-066",
+      "question": "What documents do I need for registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-067",
+      "question": "My turnover is growing \u2014 Is registering tax obligations mandatory for SMEs?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-068",
+      "question": "For my M-Pesa business, What penalties apply to registering tax obligations?",
+      "reference_answer": "After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.",
+      "expected_chunk_ids": [
+        "brs-registration-registering-tax-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Business Registration Requirements",
+      "source_heading": "Registering tax obligations"
+    },
+    {
+      "id": "eval-069",
+      "question": "For compliance purposes, What is credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-070",
+      "question": "Quick question: How does credit notes and invoice corrections work in Kenya?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-071",
+      "question": "My turnover is growing \u2014 Explain credit notes and invoice corrections for a small business.",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-072",
+      "question": "For compliance purposes, When must I credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-073",
+      "question": "For my M-Pesa business, What are the requirements for credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-074",
+      "question": "My turnover is growing \u2014 Do I need to credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-075",
+      "question": "As a shop owner, What is the deadline for credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-076",
+      "question": "Quick question: Who must credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-077",
+      "question": "Can a small business credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-078",
+      "question": "How do I credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-079",
+      "question": "Quick question: What documents do I need for credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-080",
+      "question": "As a shop owner, Is credit notes and invoice corrections mandatory for SMEs?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-081",
+      "question": "For compliance purposes, What penalties apply to credit notes and invoice corrections?",
+      "reference_answer": "Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-credit-notes-and-invoice-corrections"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Credit notes and invoice corrections"
+    },
+    {
+      "id": "eval-082",
+      "question": "For my M-Pesa business, What is tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-083",
+      "question": "How does tax invoices work in Kenya?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-084",
+      "question": "For compliance purposes, Explain tax invoices for a small business.",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-085",
+      "question": "As a shop owner, When must I issue eTIMS invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-086",
+      "question": "For compliance purposes, What are the requirements for tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-087",
+      "question": "Do I need to issue eTIMS invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-088",
+      "question": "I'm a sole proprietor \u2014 What is the deadline for tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-089",
+      "question": "For my M-Pesa business, Who must issue eTIMS invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-090",
+      "question": "I'm a sole proprietor \u2014 Can a small business issue eTIMS invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-091",
+      "question": "Quick question: What rate applies to tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-092",
+      "question": "For compliance purposes, How do I issue eTIMS invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-093",
+      "question": "For my M-Pesa business, What documents do I need for tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-094",
+      "question": "As a shop owner, Is tax invoices mandatory for SMEs?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-095",
+      "question": "For my M-Pesa business, What penalties apply to tax invoices?",
+      "reference_answer": "An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-electronic-tax-invoice-requirements"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Electronic tax invoice requirements"
+    },
+    {
+      "id": "eval-096",
+      "question": "For my M-Pesa business, What is etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-097",
+      "question": "As a shop owner, How does etims compliance and penalties work in Kenya?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-098",
+      "question": "Quick question: Explain etims compliance and penalties for a small business.",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-099",
+      "question": "For my M-Pesa business, When must I etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-100",
+      "question": "Quick question: What are the requirements for etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-101",
+      "question": "Quick question: Do I need to etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-102",
+      "question": "Quick question: What is the deadline for etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-103",
+      "question": "Who must etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-104",
+      "question": "My turnover is growing \u2014 Can a small business etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-105",
+      "question": "Quick question: How do I etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-106",
+      "question": "As a shop owner, What documents do I need for etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-107",
+      "question": "My turnover is growing \u2014 Is etims compliance and penalties mandatory for SMEs?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-108",
+      "question": "Quick question: What penalties apply to etims compliance and penalties?",
+      "reference_answer": "Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-compliance-and-penalties"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS compliance and penalties"
+    },
+    {
+      "id": "eval-109",
+      "question": "As a shop owner, What is eTIMS for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-110",
+      "question": "As a shop owner, How does eTIMS for SMEs work in Kenya?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-111",
+      "question": "I'm a sole proprietor \u2014 Explain eTIMS for SMEs for a small business.",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-112",
+      "question": "I'm a sole proprietor \u2014 When must I use the eTIMS mobile app?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-113",
+      "question": "For my M-Pesa business, What are the requirements for eTIMS for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-114",
+      "question": "Quick question: Do I need to use the eTIMS mobile app?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-115",
+      "question": "Quick question: What is the deadline for eTIMS for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-116",
+      "question": "My turnover is growing \u2014 Who must use the eTIMS mobile app?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-117",
+      "question": "As a shop owner, Can a small business use the eTIMS mobile app?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-118",
+      "question": "Quick question: How do I use the eTIMS mobile app?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-119",
+      "question": "For my M-Pesa business, What documents do I need for eTIMS for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-120",
+      "question": "For compliance purposes, Is eTIMS for SMEs mandatory for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-121",
+      "question": "For compliance purposes, What penalties apply to eTIMS for SMEs?",
+      "reference_answer": "Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-etims-solutions-for-smes"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "eTIMS solutions for SMEs"
+    },
+    {
+      "id": "eval-122",
+      "question": "For compliance purposes, What is eTIMS registration?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-123",
+      "question": "How does eTIMS registration work in Kenya?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-124",
+      "question": "As a shop owner, Explain eTIMS registration for a small business.",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-125",
+      "question": "For compliance purposes, When must I register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-126",
+      "question": "What are the requirements for eTIMS registration?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-127",
+      "question": "For compliance purposes, Do I need to register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-128",
+      "question": "For my M-Pesa business, What happens if I don't register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-129",
+      "question": "I'm a sole proprietor \u2014 What is the deadline for eTIMS registration?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-130",
+      "question": "For my M-Pesa business, Who must register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-131",
+      "question": "Can a small business register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-132",
+      "question": "As a shop owner, How do I register for eTIMS?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "easy",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-133",
+      "question": "My turnover is growing \u2014 What documents do I need for eTIMS registration?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "medium",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-134",
+      "question": "Quick question: Is eTIMS registration mandatory for SMEs?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-135",
+      "question": "For my M-Pesa business, What penalties apply to eTIMS registration?",
+      "reference_answer": "Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials.",
+      "expected_chunk_ids": [
+        "kra-etims-guide-registering-for-etims"
+      ],
+      "category": "eTIMS",
+      "difficulty": "hard",
+      "source_doc": "eTIMS Onboarding Guide",
+      "source_heading": "Registering for eTIMS"
+    },
+    {
+      "id": "eval-136",
+      "question": "As a shop owner, What is annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-137",
+      "question": "Quick question: How does annual filing obligations work in Kenya?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-138",
+      "question": "I'm a sole proprietor \u2014 Explain annual filing obligations for a small business.",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-139",
+      "question": "I'm a sole proprietor \u2014 When must I annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-140",
+      "question": "Quick question: What are the requirements for annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-141",
+      "question": "I'm a sole proprietor \u2014 Do I need to annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-142",
+      "question": "As a shop owner, What is the deadline for annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-143",
+      "question": "For my M-Pesa business, Who must annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-144",
+      "question": "As a shop owner, Can a small business annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-145",
+      "question": "As a shop owner, How do I annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-146",
+      "question": "Quick question: What documents do I need for annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-147",
+      "question": "My turnover is growing \u2014 Is annual filing obligations mandatory for SMEs?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-148",
+      "question": "My turnover is growing \u2014 What penalties apply to annual filing obligations?",
+      "reference_answer": "Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-annual-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Annual filing obligations"
+    },
+    {
+      "id": "eval-149",
+      "question": "For my M-Pesa business, What is tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-150",
+      "question": "Quick question: How does tax filing work in Kenya?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-151",
+      "question": "My turnover is growing \u2014 Explain tax filing for a small business.",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-152",
+      "question": "I'm a sole proprietor \u2014 When must I file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-153",
+      "question": "My turnover is growing \u2014 What are the requirements for tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-154",
+      "question": "I'm a sole proprietor \u2014 Do I need to file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-155",
+      "question": "For my M-Pesa business, What happens if I don't file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-156",
+      "question": "As a shop owner, What is the deadline for tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-157",
+      "question": "As a shop owner, Who must file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-158",
+      "question": "My turnover is growing \u2014 Can a small business file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-159",
+      "question": "I'm a sole proprietor \u2014 What rate applies to tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-160",
+      "question": "How do I file tax returns?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-161",
+      "question": "For compliance purposes, What documents do I need for tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-162",
+      "question": "Is tax filing mandatory for SMEs?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-163",
+      "question": "For compliance purposes, What penalties apply to tax filing?",
+      "reference_answer": "Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-common-filing-obligations"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Common filing obligations"
+    },
+    {
+      "id": "eval-164",
+      "question": "What is nil returns?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-165",
+      "question": "As a shop owner, How does nil returns work in Kenya?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-166",
+      "question": "Quick question: Explain nil returns for a small business.",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-167",
+      "question": "As a shop owner, When must I file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-168",
+      "question": "For compliance purposes, What are the requirements for nil returns?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-169",
+      "question": "Quick question: Do I need to file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-170",
+      "question": "I'm a sole proprietor \u2014 What happens if I don't file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-171",
+      "question": "My turnover is growing \u2014 What is the deadline for nil returns?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-172",
+      "question": "Who must file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-173",
+      "question": "I'm a sole proprietor \u2014 Can a small business file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-174",
+      "question": "I'm a sole proprietor \u2014 How do I file a nil return?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-175",
+      "question": "My turnover is growing \u2014 What documents do I need for nil returns?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-176",
+      "question": "I'm a sole proprietor \u2014 Is nil returns mandatory for SMEs?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-177",
+      "question": "My turnover is growing \u2014 What penalties apply to nil returns?",
+      "reference_answer": "A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-nil-returns"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Nil returns"
+    },
+    {
+      "id": "eval-178",
+      "question": "For my M-Pesa business, What is PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-179",
+      "question": "My turnover is growing \u2014 How does PAYE work in Kenya?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-180",
+      "question": "For compliance purposes, Explain PAYE for a small business.",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-181",
+      "question": "When must I deduct and remit PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-182",
+      "question": "Quick question: What are the requirements for PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-183",
+      "question": "Quick question: Do I need to deduct and remit PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-184",
+      "question": "What is the deadline for PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-185",
+      "question": "Quick question: Who must deduct and remit PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-186",
+      "question": "My turnover is growing \u2014 Can a small business deduct and remit PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-187",
+      "question": "For compliance purposes, How do I deduct and remit PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-188",
+      "question": "For my M-Pesa business, What documents do I need for PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-189",
+      "question": "For compliance purposes, Is PAYE mandatory for SMEs?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-190",
+      "question": "Quick question: What penalties apply to PAYE?",
+      "reference_answer": "An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-paye-obligations-for-employers"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "PAYE obligations for employers"
+    },
+    {
+      "id": "eval-191",
+      "question": "For my M-Pesa business, What is penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-192",
+      "question": "How does penalties for late filing work in Kenya?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-193",
+      "question": "For my M-Pesa business, Explain penalties for late filing for a small business.",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-194",
+      "question": "I'm a sole proprietor \u2014 When must I penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-195",
+      "question": "As a shop owner, What are the requirements for penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-196",
+      "question": "I'm a sole proprietor \u2014 Do I need to penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-197",
+      "question": "What is the deadline for penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-198",
+      "question": "Quick question: Who must penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "medium",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-199",
+      "question": "Quick question: Can a small business penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "hard",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    },
+    {
+      "id": "eval-200",
+      "question": "For my M-Pesa business, How do I penalties for late filing?",
+      "reference_answer": "Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay.",
+      "expected_chunk_ids": [
+        "kra-filing-calendar-penalties-for-late-filing"
+      ],
+      "category": "Business Compliance",
+      "difficulty": "easy",
+      "source_doc": "Filing Obligations Calendar",
+      "source_heading": "Penalties for late filing"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "created_utc": "2026-08-24T20:29:28+00:00",
+  "selected_config": "hybrid_top5",
+  "configs": [
+    {
+      "name": "hybrid_top1",
+      "description": "FTS5 + keyword + embed rerank, top-1",
+      "top_k": 1,
+      "sacc": 73.4,
+      "retrieval_hit_rate": 84.5,
+      "mean_answer_f1": 0.623
+    },
+    {
+      "name": "hybrid_top3",
+      "description": "FTS5 + keyword + embed rerank, top-3",
+      "top_k": 3,
+      "sacc": 77.4,
+      "retrieval_hit_rate": 92.5,
+      "mean_answer_f1": 0.623
+    },
+    {
+      "name": "hybrid_top5",
+      "description": "FTS5 + keyword + embed rerank, top-5",
+      "top_k": 5,
+      "sacc": 78.15,
+      "retrieval_hit_rate": 94.0,
+      "mean_answer_f1": 0.623
+    }
+  ],
+  "rejected": [
+    {
+      "name": "keyword_only_baseline",
+      "reason": "Replaced by FTS5 + hybrid rerank; lower recall on paraphrased queries"
+    },
+    {
+      "name": "chunk_size_512",
+      "reason": "Larger chunks diluted precision; section-level chunking retained"
+    },
+    {
+      "name": "chunk_size_128",
+      "reason": "Too granular; lost context for multi-sentence obligations"
+    },
+    {
+      "name": "top_k_10",
+      "reason": "Exceeded 2048 token context budget with 3+ long chunks"
+    }
+  ]
+}
