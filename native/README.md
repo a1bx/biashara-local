@@ -22,8 +22,11 @@ native/
     test_integrity.py    7 tests covering happy path + tampering
     test_scoring.py      13 tests covering the ADTC formulas
     test_service.py      4 tests: app wiring + live NDJSON streaming
+    test_retrieval.py    chunking, index, search, Sacc scoring
   pyproject.toml
 ```
+
+Person B (retrieval) lives under `biashara/retrieval/` — see `eval/README.md`.
 
 ## Setup
 
@@ -47,6 +50,38 @@ Integrity round trip and tampering tests do not need a model:
 ```
 .venv/bin/pytest tests/ -v
 ```
+
+Retrieval tests use the corpus under `../assets/corpus/` and do not need
+sentence-transformers unless you run a full index rebuild in the test.
+```
+.venv/bin/pytest tests/test_retrieval.py -v
+```
+
+## Compliance retrieval (Person B)
+
+Build the SQLite index and frontend corpus export:
+```
+.venv/bin/pip install -e '.[build]'
+.venv/bin/python -m biashara.scripts.build_index \
+    --corpus ../assets/corpus \
+    --out ../assets/index/compliance.sqlite \
+    --export-json ../src/data/corpus.generated.json
+```
+
+Serve retrieval (port 8766, independent of the LLM on 8765):
+```
+.venv/bin/python -m biashara.retrieval_service
+```
+
+Measure Sacc on the 200-item eval set:
+```
+.venv/bin/python -m biashara.scripts.run_eval \
+    --index ../assets/index/compliance.sqlite \
+    --eval ../eval/items.json \
+    --out ../bench/reports/retrieval_eval.json
+```
+
+See `../eval/README.md` for full Person B documentation.
 
 ## Building the signed manifest
 
