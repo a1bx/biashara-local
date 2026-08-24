@@ -1,0 +1,30 @@
+# Turnover Tax Guide for Small Businesses
+Category: Turnover Tax
+DocType: Guide (PDF)
+Snapshot: Jan 2024
+
+## Turnover tax basics
+
+Turnover tax (TOT) is a simplified tax payable by resident persons whose gross turnover falls within the prescribed band. It is calculated on gross monthly sales without deduction of expenses. TOT applies to resident businesses that are not registered for VAT and whose annual turnover is within the prescribed band.
+
+The TOT rate is 1.5% of gross monthly turnover. Returns are filed and paid monthly on iTax by the 20th day of the following month. TOT is an alternative to normal income tax for eligible small businesses.
+
+## Eligibility for turnover tax
+
+Turnover tax applies to resident persons whose gross annual turnover exceeds KES 1,000,000 but does not exceed KES 25,000,000. Businesses with turnover below KES 1,000,000 may be exempt from TOT. Businesses with turnover above KES 25,000,000 must migrate to normal income tax and register for VAT if taxable supplies exceed the VAT threshold.
+
+A person registered for VAT cannot be on turnover tax. A person on turnover tax who exceeds the upper band must notify KRA and migrate to the appropriate tax regime within the prescribed period.
+
+## TOT returns and payment
+
+TOT returns are filed monthly on iTax regardless of whether any sales were made. The return must show gross turnover for the month and TOT payable at 1.5%. Payment is due by the 20th of the following month together with the return.
+
+Late filing and late payment attract penalties and interest under the Tax Procedures Act. Nil returns must still be filed for months with no turnover.
+
+## Transition from TOT to income tax
+
+When gross turnover exceeds KES 25,000,000 in a year, the business must migrate from TOT to normal income tax. The business must also assess whether VAT registration is required if taxable supplies exceed KES 5,000,000 in any rolling twelve month period. Migration should be done promptly to avoid penalties for under-declaration.
+
+## Record keeping for TOT
+
+Businesses on turnover tax must keep records of daily sales, receipts, and bank statements sufficient to support declared turnover. Records must be retained for at least five years. KRA may request records during audits to verify declared gross turnover.

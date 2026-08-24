@@ -1,0 +1,32 @@
+# eTIMS Onboarding Guide
+Category: eTIMS
+DocType: Guide (PDF)
+Snapshot: Mar 2024
+
+## Registering for eTIMS
+
+Businesses generate electronic tax invoices through eTIMS (Electronic Tax Invoice Management System). Onboarding is done through the eTIMS taxpayer portal using the KRA PIN and iTax credentials. All VAT-registered businesses and other persons required by KRA must register for eTIMS.
+
+Sign up on the eTIMS taxpayer portal at the KRA website using your KRA PIN. Choose the eTIMS solution that fits your business: mobile app for small traders, client software integrated with a point-of-sale system, or the online portal for manual invoice generation.
+
+Upload the required identification documents including certificate of registration or business name certificate and wait for KRA approval. Once approved, all invoices to other businesses must be generated through eTIMS. Paper invoices without eTIMS validation are not accepted for VAT purposes.
+
+## eTIMS solutions for SMEs
+
+Small businesses may use the eTIMS mobile application available on Android and iOS. The mobile solution suits traders who issue a moderate number of invoices. Businesses with point-of-sale systems should integrate through certified eTIMS client software. The online portal suits businesses that issue invoices manually from a computer.
+
+Each solution must be linked to the business KRA PIN. Only one active control unit per branch or trading location is permitted unless KRA approves otherwise.
+
+## Electronic tax invoice requirements
+
+An electronic tax invoice must carry the seller name, address and KRA PIN, and the buyer PIN where the buyer is a registered person. It must include a unique invoice number, date and time of supply, and description of goods or services supplied.
+
+Each line item must show quantity, unit price, and taxable value. The invoice must show the tax rate, VAT amount, and total amount payable. The eTIMS control number and QR code must appear on every invoice. Invoices without a valid eTIMS control number cannot be used to support input VAT claims by the buyer.
+
+## Credit notes and invoice corrections
+
+Credit notes for returns, discounts, or corrections must also be generated through eTIMS. A credit note must reference the original invoice number and explain the reason for the adjustment. Both the original invoice and credit note are transmitted to KRA in real time.
+
+## eTIMS compliance and penalties
+
+Failure to issue eTIMS-compliant invoices attracts penalties under the Tax Procedures Act. Businesses must ensure their eTIMS solution is connected and operational before making taxable supplies. Offline mode may be available for brief connectivity interruptions but invoices must be transmitted once connectivity is restored.

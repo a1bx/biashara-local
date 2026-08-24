@@ -1,0 +1,34 @@
+# Tax Penalties and Compliance Guide
+Category: Business Compliance
+DocType: Guide (PDF)
+Snapshot: Apr 2024
+
+## Late filing penalties
+
+Late filing of a tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for each month or part of a month the return is late. This applies to VAT, income tax, PAYE, turnover tax, and withholding tax returns filed on iTax.
+
+Filing a nil return late attracts the same penalty structure. Even businesses with no tax due must file on time to avoid penalties.
+
+## Late payment interest
+
+Interest on unpaid tax accrues at 1% per month on the principal amount of tax remaining unpaid. Interest continues to accrue until the full tax liability including penalties and interest is settled. KRA may offset refunds against outstanding liabilities.
+
+## Failure to register for tax
+
+Operating without registering for a required tax obligation when turnover or activity triggers registration attracts penalties. A business that exceeds the VAT threshold but fails to register for VAT within 30 days may face penalties and back-dated assessments.
+
+## eTIMS non-compliance penalties
+
+Failure to issue eTIMS-compliant tax invoices or operating without an approved eTIMS solution when required attracts penalties under the Tax Procedures Act. KRA conducts spot checks and may suspend eTIMS access for repeat offenders.
+
+## Tax audit and assessments
+
+KRA may audit a business to verify declared income and tax paid. During an audit, KRA may request books of account, bank statements, and invoices for up to five years. If KRA issues an additional assessment, the taxpayer may object within 30 days through iTax.
+
+## Voluntary disclosure
+
+KRA offers a voluntary tax disclosure programme allowing taxpayers to declare previously undeclared income and pay tax with reduced penalties. Participation requires full disclosure of all omitted tax for the disclosure period. Contact KRA or check iTax for current programme terms.
+
+## Staying compliant
+
+Maintain a compliance calendar with all filing deadlines. Reconcile M-Pesa and bank records monthly against declared turnover. Register new tax obligations promptly when business activity changes. Seek professional advice for complex transactions rather than guessing tax treatment.

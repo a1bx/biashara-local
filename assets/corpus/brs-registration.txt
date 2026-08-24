@@ -1,0 +1,32 @@
+# Business Registration Requirements
+Category: Business Compliance
+DocType: Guide (PDF)
+Snapshot: Nov 2023
+
+## Registering a business in Kenya
+
+Business names and companies are registered through the eCitizen Business Registration Service (BRS). Sole proprietors and partnerships register a business name. Limited companies register through the company registration process on the same platform.
+
+Reserve a unique business name on eCitizen before registration. Submit the registration application with proprietor or director details, registered office address, and nature of business. Pay the registration fee and receive a certificate of registration or certificate of incorporation.
+
+## Obtaining a KRA PIN
+
+After business registration, apply for a KRA PIN for the registered entity on iTax. The PIN application requires the certificate of registration, identification documents of directors or proprietors, and contact details. The PIN is required before opening a business bank account or registering for VAT.
+
+Individual sole proprietors may use their personal PIN for the business if they operate under their own name, but a separate business PIN is recommended for clarity of tax records.
+
+## County business permits
+
+Obtain the county single business permit (SBP) for your trading location from the county government where the business operates. The SBP fee varies by county and business category. Some counties require additional sector-specific licences such as food handling or health permits.
+
+The SBP must be displayed at the business premises. Operating without a valid permit may result in county enforcement action including fines or closure.
+
+## Registering tax obligations
+
+After obtaining a PIN, register the tax obligations that apply to your business on iTax. Common obligations include income tax or turnover tax, VAT if turnover exceeds the threshold, PAYE if you have employees, and withholding tax if you pay rent or professional fees above prescribed thresholds.
+
+Tax obligation registration is separate from PIN issuance. A business with a PIN but no registered obligations may not appear compliant on KRA systems.
+
+## Opening a business bank account
+
+Banks require a certificate of registration, KRA PIN certificate, and identification of signatories to open a business account. Some banks require a minimum deposit and proof of business address. M-Pesa business accounts are available for informal traders through Safaricom with reduced documentation requirements.

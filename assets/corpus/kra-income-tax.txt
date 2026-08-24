@@ -1,0 +1,34 @@
+# Income Tax Basics for Small Business
+Category: Income Tax
+DocType: Guide (PDF)
+Snapshot: Jan 2024
+
+## Income tax for small businesses
+
+Business income is taxed on profits after allowable business expenses. Resident companies pay corporation tax at 30% on taxable profits. Sole proprietors and partners are taxed at graduated individual rates on their share of business profit.
+
+Taxable profit is gross business income less allowable business expenses. Allowable expenses include rent, salaries, utilities, stock purchases, depreciation of business assets, and other expenses wholly and exclusively incurred in producing income.
+
+## Record keeping requirements
+
+Businesses must keep books of account and supporting documents for at least five years. Records include sales records, purchase invoices, bank statements, payroll records, and asset registers. Inadequate records may result in KRA estimating income during an audit.
+
+Digital records including M-Pesa statements and eTIMS invoices are acceptable provided they are complete and accessible. Back up electronic records regularly.
+
+## Instalment tax
+
+Instalment tax applies where the estimated annual tax liability exceeds KES 40,000. Instalments are paid in four equal amounts by the 20th day of the 4th, 6th, 9th, and 12th months of the accounting year. Failure to pay instalments attracts interest.
+
+Businesses should estimate annual profit early in the year and calculate expected tax to determine instalment obligations. Adjust estimates if business performance changes significantly.
+
+## Sole proprietor vs company taxation
+
+A sole proprietor reports business profit on their individual income tax return. A registered company files a separate corporation tax return. Companies offer limited liability but have higher compliance costs including annual returns and audited accounts for companies above prescribed turnover.
+
+Choosing between sole proprietorship and company registration depends on liability concerns, expected turnover, and access to contracts requiring corporate entities.
+
+## Withholding tax obligations
+
+Businesses paying rent, management or professional fees, royalties, or dividends may be required to withhold tax at source and remit to KRA. Withholding tax rates vary by payment type. The withholding agent must obtain a withholding tax certificate and issue a withholding tax certificate to the payee.
+
+Failure to withhold and remit attracts penalties and the withholding agent becomes personally liable for the tax not deducted.

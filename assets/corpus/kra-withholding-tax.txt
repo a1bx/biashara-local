@@ -1,0 +1,30 @@
+# Withholding Tax Guide for Businesses
+Category: Income Tax
+DocType: Guide (PDF)
+Snapshot: Mar 2024
+
+## What is withholding tax
+
+Withholding tax (WHT) is tax deducted at source from certain payments and remitted to KRA by the payer. The payer acts as a withholding agent. Common payments subject to WHT include rent, management fees, professional fees, royalties, dividends, and interest.
+
+The withholding agent must deduct WHT at the prescribed rate, remit to KRA by the 20th of the following month, and issue a withholding tax certificate to the payee. The payee may credit WHT deducted against their final tax liability.
+
+## Withholding tax on rent
+
+WHT on rent paid to a resident landlord is deducted at 10% of the gross rent if the landlord is not exempt. The tenant or property manager acting as withholding agent must deduct and remit monthly. Non-deduction makes the agent liable for the tax plus penalties.
+
+## Withholding tax on professional fees
+
+WHT on professional, management, and training fees paid to a resident is 5% of the gross fee. WHT on fees paid to non-residents is at higher rates depending on the type of payment and any applicable double taxation treaty.
+
+## Withholding tax returns
+
+Withholding tax returns are filed monthly on iTax by the 20th of the following month together with payment. The return must list each payee, payment type, gross amount, and WHT deducted. Annual reconciliation ensures all WHT certificates match declared payments.
+
+## Exemptions from withholding tax
+
+Some payees such as government entities or persons with valid exemption certificates may be exempt from WHT. The withholding agent must verify exemption status before paying without deduction. Invalid exemption claims may result in the agent bearing the WHT liability.
+
+## WHT for small businesses
+
+Small businesses receiving professional services must deduct WHT when paying consultants, lawyers, or accountants above the threshold. Small businesses receiving rent as landlords will have WHT deducted by tenants and should ensure they receive withholding tax certificates to claim credit on their income tax return.

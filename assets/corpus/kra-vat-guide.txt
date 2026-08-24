@@ -1,0 +1,34 @@
+# KRA VAT Guide for Taxpayers
+Category: VAT
+DocType: Guide (PDF)
+Snapshot: May 2024
+
+## VAT registration threshold
+
+A person whose taxable supplies exceed or are expected to exceed KES 5,000,000 in any rolling twelve month period is required to register for VAT. Registration is required within 30 days of exceeding the threshold. Voluntary registration is possible below the threshold if the person makes taxable supplies and wishes to recover input VAT.
+
+The standard VAT rate in Kenya is 16%. Some supplies are zero-rated at 0% and others are exempt from VAT. Only taxable supplies (standard-rated and zero-rated) count toward the KES 5,000,000 registration threshold. Exempt supplies do not count toward the threshold.
+
+## Taxable, zero-rated and exempt supplies
+
+Taxable supplies are goods and services supplied in Kenya that attract VAT at the standard or zero rate. Standard-rated supplies attract VAT at 16%. Zero-rated supplies such as exports of goods and certain specified supplies are taxable at 0% and allow input VAT recovery on related purchases.
+
+Exempt supplies do not attract VAT and the supplier cannot recover input VAT on purchases related to exempt supplies. Exempt supplies are excluded from the registration threshold calculation. Common exempt supplies include certain financial services, residential rent, and unprocessed agricultural produce as specified in the VAT Act.
+
+## VAT returns and payment
+
+Registered persons file a VAT return on iTax for each tax period, which is one calendar month. The return and any VAT due must be submitted and paid by the 20th day of the month following the tax period. A nil return must be filed for periods with no taxable supplies.
+
+Late filing and late payment of VAT attract penalties and interest. Input VAT on qualifying business purchases can be deducted from output VAT collected on sales. The net amount is payable to KRA or refundable if input exceeds output.
+
+## VAT deregistration
+
+A registered person may apply for deregistration if taxable supplies fall below the threshold and are not expected to exceed it in the next twelve months. KRA may also cancel registration where a person has ceased making taxable supplies. Upon deregistration, any remaining VAT on hand must be accounted for.
+
+## Input VAT recovery
+
+Input VAT is recoverable on goods and services purchased wholly for making taxable supplies. Where purchases are used partly for taxable and partly for exempt supplies, input VAT must be apportioned. Documentation including valid tax invoices from suppliers registered for VAT is required to support input VAT claims.
+
+## VAT invoices and records
+
+A registered person must issue a tax invoice for every taxable supply. Records including invoices, credit notes, and import documents must be kept for at least five years. Electronic tax invoices through eTIMS are required for VAT-registered businesses as per KRA directives.

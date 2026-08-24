@@ -1,0 +1,30 @@
+# Filing Obligations Calendar
+Category: Business Compliance
+DocType: Reference (PDF)
+Snapshot: Feb 2024
+
+## Common filing obligations
+
+Filing obligations depend on the tax obligations registered against the KRA PIN. A business may have multiple obligations including VAT, turnover tax, PAYE, withholding tax, and excise duty depending on its activities and registration status.
+
+VAT: monthly return and payment by the 20th of the following month. Turnover tax: monthly return and payment by the 20th of the following month. PAYE (if you have employees): monthly return and payment by the 9th of the following month. Withholding tax on rent, professional fees, and other payments: monthly by the 20th of the following month.
+
+## Annual filing obligations
+
+Company income tax return: within six months of the accounting year end. Individual income tax return for sole proprietors: by 30 June following the end of the year of income. Annual returns for companies registered with the Business Registration Service must also be filed with the Registrar of Companies.
+
+## PAYE obligations for employers
+
+An employer who pays emoluments to employees must register for PAYE on iTax. PAYE returns are due by the 9th of the month following the payroll month. The employer must deduct PAYE, NHIF or SHIF contributions, and NSSF contributions where applicable and remit to the respective authorities.
+
+Employers must issue P9 forms to employees annually showing total emoluments and tax deducted. Failure to deduct and remit PAYE attracts penalties and personal liability for the employer.
+
+## Penalties for late filing
+
+Late filing of any tax return attracts a penalty of 5% of the tax due or KES 20,000, whichever is higher, for the first month of delay. Additional penalties accrue for continued delay. Interest on unpaid tax accrues at 1% per month on the principal tax due.
+
+Businesses should maintain a filing calendar and set reminders for each obligation registered on their PIN to avoid penalties.
+
+## Nil returns
+
+A nil return must be filed even when no tax is payable for the period. Failure to file a nil return is treated as non-compliance and attracts the same penalties as late filing of a return with tax due.
