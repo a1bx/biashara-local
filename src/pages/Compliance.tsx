@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { HelpCircleIcon, LibraryIcon } from 'lucide-react';
 import { AnswerCard } from '../components/compliance/AnswerCard';
