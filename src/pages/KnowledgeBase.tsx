@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { BookOpenIcon, DatabaseIcon } from 'lucide-react';
 import { Badge, toneForStatus } from '../components/common/Badge';
 import { Card, CardHeader } from '../components/common/Card';
