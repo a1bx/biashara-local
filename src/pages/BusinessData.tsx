@@ -1,4 +1,3 @@
-import React from 'react';
 import { HardDriveIcon, ShieldCheckIcon } from 'lucide-react';
 import { BusinessDetailsForm } from '../components/documents/BusinessDetailsForm';
 import { Card, CardHeader } from '../components/common/Card';
