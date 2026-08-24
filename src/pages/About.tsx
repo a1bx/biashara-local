@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckIcon, LaptopIcon, XIcon } from 'lucide-react';
 import { Card, CardHeader } from '../components/common/Card';
 
